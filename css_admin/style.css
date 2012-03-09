@@ -1,9 +1,11 @@
 @import "panellogin.css";
 @import "reset.css";
+
+@import "bootstrap-responsive.css";
+@import "bootstrap.css";
 body
 {
-    background-color: grey;
-    text-align: center;
+
 }
 .wrap
 {

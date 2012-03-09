@@ -1,7 +1,3 @@
-/**
- * Created by JetBrains PhpStorm.
- * User: root
- * Date: 3/9/12
- * Time: 11:55 AM
- * To change this template use File | Settings | File Templates.
- */
+var url = 'http://localhost/sekolah/';
+$.getScript(url+'js/bootstrap-dropdown.js');
+$.getScript(url+'js/bootstrap-tab.js');

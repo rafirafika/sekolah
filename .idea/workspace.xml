@@ -22,19 +22,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cfitur.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/page/cfitur.php">
+      <file leaf-file-name="vheader.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/backend/element/vheader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="58" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
+            <state line="58" column="0" selection-start="2018" selection-end="2018" vertical-scroll-proportion="-21.291666">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="celearning.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controllers/page/celearning.php">
+      <file leaf-file-name="vcontent.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/backend/element/vcontent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="58" selection-start="243" selection-end="243" vertical-scroll-proportion="0.19090909">
+            <state line="34" column="28" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.65779465">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css_admin/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jstyle.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jstyle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="33" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -55,22 +73,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/backend/element/vfooter.php" />
-        <option value="$PROJECT_DIR$/application/views/backend/element/vcontent.php" />
-        <option value="$PROJECT_DIR$/application/controllers/frontend/page/cprofil.php" />
-        <option value="$PROJECT_DIR$/application/controllers/frontend/page/cguru.php" />
-        <option value="$PROJECT_DIR$/application/controllers/frontend/page/csiswa.php" />
-        <option value="$PROJECT_DIR$/application/controllers/frontend/page/calumni.php" />
-        <option value="$PROJECT_DIR$/application/controllers/frontend/page/cfitur.php" />
-        <option value="$PROJECT_DIR$/application/controllers/frontend/page/celearning.php" />
-        <option value="$PROJECT_DIR$/application/controllers/cpage.php" />
-        <option value="$PROJECT_DIR$/application/views/frontend/element/vheader.php" />
-        <option value="$PROJECT_DIR$/application/controllers/page/cprofil.php" />
         <option value="$PROJECT_DIR$/application/controllers/page/cguru.php" />
         <option value="$PROJECT_DIR$/application/controllers/page/csiswa.php" />
         <option value="$PROJECT_DIR$/application/controllers/page/calumni.php" />
         <option value="$PROJECT_DIR$/application/controllers/page/cfitur.php" />
         <option value="$PROJECT_DIR$/application/controllers/page/celearning.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/cpageadmin.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/index.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/cpanellogin.php" />
+        <option value="$PROJECT_DIR$/application/controllers/backend/cpanellogin.php" />
+        <option value="$PROJECT_DIR$/application/controllers/backend/cpageadmin.php" />
+        <option value="$PROJECT_DIR$/application/views/backend/element/vfooter.php" />
+        <option value="$PROJECT_DIR$/css_admin/bootstrap.css" />
+        <option value="$PROJECT_DIR$/js/jstyle.js" />
+        <option value="$PROJECT_DIR$/css_admin/style.css" />
+        <option value="$PROJECT_DIR$/application/views/backend/element/vheader.php" />
+        <option value="$PROJECT_DIR$/application/views/backend/element/vcontent.php" />
       </list>
     </option>
   </component>
@@ -219,10 +237,6 @@
               <option name="myItemId" value="frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -334,28 +348,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sekolah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sekolah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="backend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -384,11 +376,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/css_admin" />
       <recent name="$PROJECT_DIR$/javascript" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/application/controllers" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -497,90 +489,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/page/valumni.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="10" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/page/vfitur.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/page/velearning.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/backend/element/vfooter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="7" selection-start="15" selection-end="15" vertical-scroll-proportion="0.027272727">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/backend/element/vheader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.19090909">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/backend/element/vcontent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/backend/cpanellogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="49" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vheader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="33" selection-start="51" selection-end="51" vertical-scroll-proportion="-1.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/cpage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/page/vprofil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/page/cprofil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="48" selection-start="138" selection-end="178" vertical-scroll-proportion="0.17013232">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/page/cguru.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="58" selection-start="233" selection-end="233" vertical-scroll-proportion="0.19090909">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/page/csiswa.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="29" selection-start="158" selection-end="158" vertical-scroll-proportion="0.16363636">
@@ -595,16 +503,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/page/cfitur.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/page/celearning.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="58" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
+        <state line="11" column="1" selection-start="364" selection-end="364" vertical-scroll-proportion="0.3">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/page/celearning.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/page/cfitur.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="58" selection-start="243" selection-end="243" vertical-scroll-proportion="0.19090909">
+        <state line="7" column="58" selection-start="235" selection-end="235" vertical-scroll-proportion="0.19090909">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/backend/cpanellogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="191" selection-end="191" vertical-scroll-proportion="0.21818182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/backend/cpageadmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="57" selection-start="228" selection-end="228" vertical-scroll-proportion="0.19090909">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css_admin/bootstrap-responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/backend/element/vfooter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css_admin/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="960" column="12" selection-start="18203" selection-end="18203" vertical-scroll-proportion="0.5371094">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap-dropdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap-tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jstyle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="33" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css_admin/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/backend/element/vheader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="2018" selection-end="2018" vertical-scroll-proportion="-21.291666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/backend/element/vcontent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="28" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.65779465">
           <folding />
         </state>
       </provider>
