@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Selamat Datang di SMA NEGERI 1 LAMPUNG</title>
+        <title><?php echo $title; ?></title>
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style.css"/>
         <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.tools.min.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>js/jstyle.js"></script>
