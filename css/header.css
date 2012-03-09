@@ -3,10 +3,11 @@
     border: 1px solid black;
     height: 130px;
     padding: 5px;
+    margin-bottom: 3px;
 }
 .panel_header
 {
-    border: 1px solid black;
+
 }
 .panel_header ul
 {
@@ -21,7 +22,9 @@
     border-top: 1px solid black;
     border-right: 1px solid black;
     padding: 5px;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
 }
 .img_header
 {
