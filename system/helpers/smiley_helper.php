@@ -30,7 +30,7 @@
 /**
  * Smiley Javascript
  *
- * Returns the javascript required for the smiley insertion.  Optionally takes
+ * Returns the js required for the smiley insertion.  Optionally takes
  * an array of aliases to loosely couple the smiley array to the view.
  *
  * @access	public
@@ -110,7 +110,7 @@ EOF;
 
 		if ($inline)
 		{
-			return '<script type="text/javascript" charset="utf-8">/*<![CDATA[ */'.$r.'// ]]></script>';
+			return '<script type="text/js" charset="utf-8">/*<![CDATA[ */'.$r.'// ]]></script>';
 		}
 		else
 		{
@@ -165,7 +165,7 @@ if ( ! function_exists('get_clickable_smileys'))
 				continue;
 			}
 
-			$link[] = "<a href=\"javascript:void(0);\" onclick=\"insert_smiley('".$key."', '".$alias."')\"><img src=\"".$image_url.$smileys[$key][0]."\" width=\"".$smileys[$key][1]."\" height=\"".$smileys[$key][2]."\" alt=\"".$smileys[$key][3]."\" style=\"border:0;\" /></a>";
+			$link[] = "<a href=\"js:void(0);\" onclick=\"insert_smiley('".$key."', '".$alias."')\"><img src=\"".$image_url.$smileys[$key][0]."\" width=\"".$smileys[$key][1]."\" height=\"".$smileys[$key][2]."\" alt=\"".$smileys[$key][3]."\" style=\"border:0;\" /></a>";
 
 			$used[$smileys[$key][0]] = TRUE;
 		}
@@ -252,7 +252,7 @@ if ( ! function_exists('_get_smiley_array'))
 /**
  * JS Insert Smiley
  *
- * Generates the javascript function needed to insert smileys into a form field
+ * Generates the js function needed to insert smileys into a form field
  *
  * DEPRECATED as of version 1.7.2, use smiley_js instead
  *

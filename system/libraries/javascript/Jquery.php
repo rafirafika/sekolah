@@ -21,7 +21,7 @@
  * @subpackage	Libraries
  * @author		ExpressionEngine Dev Team
  * @category	Loader
- * @link		http://www.codeigniter.com/user_guide/libraries/javascript.html
+ * @link		http://www.codeigniter.com/user_guide/libraries/js.html
  */
  
 class CI_Jquery extends CI_Javascript {

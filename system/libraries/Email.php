@@ -2028,7 +2028,7 @@ class CI_Email {
 						'php3'	=>	'application/x-httpd-php',
 						'phtml'	=>	'application/x-httpd-php',
 						'phps'	=>	'application/x-httpd-php-source',
-						'js'	=>	'application/x-javascript',
+						'js'	=>	'application/x-js',
 						'swf'	=>	'application/x-shockwave-flash',
 						'sit'	=>	'application/x-stuffit',
 						'tar'	=>	'application/x-tar',

@@ -17,5 +17,14 @@
 {
     list-style: none;
     display: inline-block;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.img_header
+{
     border: 1px solid black;
+    height: 99px;
 }

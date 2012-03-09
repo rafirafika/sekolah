@@ -22,7 +22,7 @@
  * @subpackage	Libraries
  * @category	Javascript
  * @author		ExpressionEngine Dev Team
- * @link		http://codeigniter.com/user_guide/libraries/javascript.html
+ * @link		http://codeigniter.com/user_guide/libraries/js.html
  */
 class CI_Javascript {
 
@@ -45,7 +45,7 @@ class CI_Javascript {
 		$this->CI =& get_instance();
 
 		// load the requested js library
-		$this->CI->load->library('javascript/'.$js_library_driver, array('autoload' => $autoload));
+		$this->CI->load->library('js/'.$js_library_driver, array('autoload' => $autoload));
 		// make js to refer to current library
 		$this->js =& $this->CI->$js_library_driver;
 
@@ -59,7 +59,7 @@ class CI_Javascript {
 	/**
 	 * Blur
 	 *
-	 * Outputs a javascript library blur event
+	 * Outputs a js library blur event
 	 *
 	 * @access	public
 	 * @param	string	The element to attach the event to
@@ -76,7 +76,7 @@ class CI_Javascript {
 	/**
 	 * Change
 	 *
-	 * Outputs a javascript library change event
+	 * Outputs a js library change event
 	 *
 	 * @access	public
 	 * @param	string	The element to attach the event to
@@ -93,7 +93,7 @@ class CI_Javascript {
 	/**
 	 * Click
 	 *
-	 * Outputs a javascript library click event
+	 * Outputs a js library click event
 	 *
 	 * @access	public
 	 * @param	string	The element to attach the event to
@@ -111,7 +111,7 @@ class CI_Javascript {
 	/**
 	 * Double Click
 	 *
-	 * Outputs a javascript library dblclick event
+	 * Outputs a js library dblclick event
 	 *
 	 * @access	public
 	 * @param	string	The element to attach the event to
@@ -128,7 +128,7 @@ class CI_Javascript {
 	/**
 	 * Error
 	 *
-	 * Outputs a javascript library error event
+	 * Outputs a js library error event
 	 *
 	 * @access	public
 	 * @param	string	The element to attach the event to
@@ -145,7 +145,7 @@ class CI_Javascript {
 	/**
 	 * Focus
 	 *
-	 * Outputs a javascript library focus event
+	 * Outputs a js library focus event
 	 *
 	 * @access	public
 	 * @param	string	The element to attach the event to
@@ -162,7 +162,7 @@ class CI_Javascript {
 	/**
 	 * Hover
 	 *
-	 * Outputs a javascript library hover event
+	 * Outputs a js library hover event
 	 *
 	 * @access	public
 	 * @param	string	- element
@@ -180,7 +180,7 @@ class CI_Javascript {
 	/**
 	 * Keydown
 	 *
-	 * Outputs a javascript library keydown event
+	 * Outputs a js library keydown event
 	 *
 	 * @access	public
 	 * @param	string	The element to attach the event to
@@ -197,7 +197,7 @@ class CI_Javascript {
 	/**
 	 * Keyup
 	 *
-	 * Outputs a javascript library keydown event
+	 * Outputs a js library keydown event
 	 *
 	 * @access	public
 	 * @param	string	The element to attach the event to
@@ -214,7 +214,7 @@ class CI_Javascript {
 	/**
 	 * Load
 	 *
-	 * Outputs a javascript library load event
+	 * Outputs a js library load event
 	 *
 	 * @access	public
 	 * @param	string	The element to attach the event to
@@ -231,7 +231,7 @@ class CI_Javascript {
 	/**
 	 * Mousedown
 	 *
-	 * Outputs a javascript library mousedown event
+	 * Outputs a js library mousedown event
 	 *
 	 * @access	public
 	 * @param	string	The element to attach the event to
@@ -248,7 +248,7 @@ class CI_Javascript {
 	/**
 	 * Mouse Out
 	 *
-	 * Outputs a javascript library mouseout event
+	 * Outputs a js library mouseout event
 	 *
 	 * @access	public
 	 * @param	string	The element to attach the event to
@@ -265,7 +265,7 @@ class CI_Javascript {
 	/**
 	 * Mouse Over
 	 *
-	 * Outputs a javascript library mouseover event
+	 * Outputs a js library mouseover event
 	 *
 	 * @access	public
 	 * @param	string	The element to attach the event to
@@ -282,7 +282,7 @@ class CI_Javascript {
 	/**
 	 * Mouseup
 	 *
-	 * Outputs a javascript library mouseup event
+	 * Outputs a js library mouseup event
 	 *
 	 * @access	public
 	 * @param	string	The element to attach the event to
@@ -299,7 +299,7 @@ class CI_Javascript {
 	/**
 	 * Output
 	 *
-	 * Outputs the called javascript to the screen
+	 * Outputs the called js to the screen
 	 *
 	 * @access	public
 	 * @param	string	The code to output
@@ -315,7 +315,7 @@ class CI_Javascript {
 	/**
 	 * Ready
 	 *
-	 * Outputs a javascript library mouseup event
+	 * Outputs a js library mouseup event
 	 *
 	 * @access	public
 	 * @param	string	The element to attach the event to
@@ -332,7 +332,7 @@ class CI_Javascript {
 	/**
 	 * Resize
 	 *
-	 * Outputs a javascript library resize event
+	 * Outputs a js library resize event
 	 *
 	 * @access	public
 	 * @param	string	The element to attach the event to
@@ -349,7 +349,7 @@ class CI_Javascript {
 	/**
 	 * Scroll
 	 *
-	 * Outputs a javascript library scroll event
+	 * Outputs a js library scroll event
 	 *
 	 * @access	public
 	 * @param	string	The element to attach the event to
@@ -366,7 +366,7 @@ class CI_Javascript {
 	/**
 	 * Unload
 	 *
-	 * Outputs a javascript library unload event
+	 * Outputs a js library unload event
 	 *
 	 * @access	public
 	 * @param	string	The element to attach the event to
@@ -386,7 +386,7 @@ class CI_Javascript {
 	/**
 	 * Add Class
 	 *
-	 * Outputs a javascript library addClass event
+	 * Outputs a js library addClass event
 	 *
 	 * @access	public
 	 * @param	string	- element
@@ -403,7 +403,7 @@ class CI_Javascript {
 	/**
 	 * Animate
 	 *
-	 * Outputs a javascript library animate event
+	 * Outputs a js library animate event
 	 *
 	 * @access	public
 	 * @param	string	- element
@@ -421,7 +421,7 @@ class CI_Javascript {
 	/**
 	 * Fade In
 	 *
-	 * Outputs a javascript library hide event
+	 * Outputs a js library hide event
 	 *
 	 * @access	public
 	 * @param	string	- element
@@ -439,7 +439,7 @@ class CI_Javascript {
 	/**
 	 * Fade Out
 	 *
-	 * Outputs a javascript library hide event
+	 * Outputs a js library hide event
 	 *
 	 * @access	public
 	 * @param	string	- element
@@ -456,7 +456,7 @@ class CI_Javascript {
 	/**
 	 * Slide Up
 	 *
-	 * Outputs a javascript library slideUp event
+	 * Outputs a js library slideUp event
 	 *
 	 * @access	public
 	 * @param	string	- element
@@ -475,7 +475,7 @@ class CI_Javascript {
 	/**
 	 * Remove Class
 	 *
-	 * Outputs a javascript library removeClass event
+	 * Outputs a js library removeClass event
 	 *
 	 * @access	public
 	 * @param	string	- element
@@ -492,7 +492,7 @@ class CI_Javascript {
 	/**
 	 * Slide Down
 	 *
-	 * Outputs a javascript library slideDown event
+	 * Outputs a js library slideDown event
 	 *
 	 * @access	public
 	 * @param	string	- element
@@ -510,7 +510,7 @@ class CI_Javascript {
 	/**
 	 * Slide Toggle
 	 *
-	 * Outputs a javascript library slideToggle event
+	 * Outputs a js library slideToggle event
 	 *
 	 * @access	public
 	 * @param	string	- element
@@ -529,7 +529,7 @@ class CI_Javascript {
 	/**
 	 * Hide
 	 *
-	 * Outputs a javascript library hide action
+	 * Outputs a js library hide action
 	 *
 	 * @access	public
 	 * @param	string	- element
@@ -547,7 +547,7 @@ class CI_Javascript {
 	/**
 	 * Toggle
 	 *
-	 * Outputs a javascript library toggle event
+	 * Outputs a js library toggle event
 	 *
 	 * @access	public
 	 * @param	string	- element
@@ -564,7 +564,7 @@ class CI_Javascript {
 	/**
 	 * Toggle Class
 	 *
-	 * Outputs a javascript library toggle class event
+	 * Outputs a js library toggle class event
 	 *
 	 * @access	public
 	 * @param	string	- element
@@ -580,7 +580,7 @@ class CI_Javascript {
 	/**
 	 * Show
 	 *
-	 * Outputs a javascript library show event
+	 * Outputs a js library show event
 	 *
 	 * @access	public
 	 * @param	string	- element
@@ -613,7 +613,7 @@ class CI_Javascript {
 	/**
 	 * Clear Compile
 	 *
-	 * Clears any previous javascript collected for output
+	 * Clears any previous js collected for output
 	 *
 	 * @access	public
 	 * @return	void
@@ -699,7 +699,7 @@ class CI_Javascript {
 	 */
 	function _open_script($src = '')
 	{
-		$str = '<script type="text/javascript" charset="'.strtolower($this->CI->config->item('charset')).'"';
+		$str = '<script type="text/js" charset="'.strtolower($this->CI->config->item('charset')).'"';
 		$str .= ($src == '') ? '>' : ' src="'.$src.'">';
 		return $str;
 	}
@@ -730,7 +730,7 @@ class CI_Javascript {
 	/**
 	 * Update
 	 *
-	 * Outputs a javascript library slideDown event
+	 * Outputs a js library slideDown event
 	 *
 	 * @access	public
 	 * @param	string	- element

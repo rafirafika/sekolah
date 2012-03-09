@@ -89,7 +89,7 @@ class CI_Security {
 	 * @access protected
 	 */
 	protected $_never_allowed_regex = array(
-					"javascript\s*:"			=> '[removed]',
+					"js\s*:"			=> '[removed]',
 					"expression\s*(\(|&\#40;)"	=> '[removed]', // CSS and IE
 					"vbscript\s*:"				=> '[removed]', // IE, surprise!
 					"Redirect\s+302"			=> '[removed]'
@@ -364,7 +364,7 @@ class CI_Security {
 		 * These words are compacted back to their correct state.
 		 */
 		$words = array(
-				'javascript', 'expression', 'vbscript', 'script',
+				'js', 'expression', 'vbscript', 'script',
 				'applet', 'alert', 'document', 'write', 'cookie', 'window'
 			);
 
@@ -602,7 +602,7 @@ class CI_Security {
 	 */
 	protected function _remove_evil_attributes($str, $is_image)
 	{
-		// All javascript event handlers (e.g. onload, onclick, onmouseover), style, and xmlns
+		// All js event handlers (e.g. onload, onclick, onmouseover), style, and xmlns
 		$evil_attributes = array('on\w*', 'style', 'xmlns', 'formaction');
 
 		if ($is_image === TRUE)
@@ -684,7 +684,7 @@ class CI_Security {
 	{
 		$attributes = $this->_filter_attributes(str_replace(array('<', '>'), '', $match[1]));
 
-		return str_replace($match[1], preg_replace("#href=.*?(alert\(|alert&\#40;|javascript\:|livescript\:|mocha\:|charset\=|window\.|document\.|\.cookie|<script|<xss|base64\s*,)#si", "", $attributes), $match[0]);
+		return str_replace($match[1], preg_replace("#href=.*?(alert\(|alert&\#40;|js\:|livescript\:|mocha\:|charset\=|window\.|document\.|\.cookie|<script|<xss|base64\s*,)#si", "", $attributes), $match[0]);
 	}
 
 	// --------------------------------------------------------------------
@@ -704,7 +704,7 @@ class CI_Security {
 	{
 		$attributes = $this->_filter_attributes(str_replace(array('<', '>'), '', $match[1]));
 
-		return str_replace($match[1], preg_replace("#src=.*?(alert\(|alert&\#40;|javascript\:|livescript\:|mocha\:|charset\=|window\.|document\.|\.cookie|<script|<xss|base64\s*,)#si", "", $attributes), $match[0]);
+		return str_replace($match[1], preg_replace("#src=.*?(alert\(|alert&\#40;|js\:|livescript\:|mocha\:|charset\=|window\.|document\.|\.cookie|<script|<xss|base64\s*,)#si", "", $attributes), $match[0]);
 	}
 
 	// --------------------------------------------------------------------

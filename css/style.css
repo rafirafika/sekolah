@@ -5,6 +5,8 @@
 @import "contentright.css";
 @import "footer.css";
 
+@import "reset.css";
+
 body
 {
     background-color: #59AFC0;

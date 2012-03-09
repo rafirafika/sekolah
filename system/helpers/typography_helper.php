@@ -54,7 +54,7 @@ if ( ! function_exists('nl2br_except_pre'))
  *
  * @access	public
  * @param	string
- * @param	bool	whether to allow javascript event handlers
+ * @param	bool	whether to allow js event handlers
  * @param	bool	whether to reduce multiple instances of double newlines to two
  * @return	string
  */
