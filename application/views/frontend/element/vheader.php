@@ -11,13 +11,13 @@
         <div class="header">
             <div class="panel_header">
                 <ul style="z-index: 2">
-                    <li style="border-bottom-color: white;">Home</li>
-                    <li>Profil</li>
-                    <li>Guru</li>
-                    <li>Siswa</li>
-                    <li>Alumni</li>
-                    <li>Fitur</li>
-                    <li>Elearning</li>
+                    <li><a href="<?php echo base_url(); ?>index.php/cpage">Home</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/page/cprofil">Profil</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/page/cguru">Guru</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/page/csiswa">Siswa</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/page/calumni">Alumni</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/page/cfitur">Fitur</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/page/celearning">Elearning</a></li>
                 </ul>
                 <div class="img_header" style="z-index: 0">
 
