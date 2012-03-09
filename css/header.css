@@ -1,0 +1,21 @@
+.header
+{
+    border: 1px solid black;
+    height: 130px;
+    padding: 5px;
+}
+.panel_header
+{
+    border: 1px solid black;
+}
+.panel_header ul
+{
+    margin: 0;
+    padding: 0;
+}
+.panel_header ul li
+{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid black;
+}

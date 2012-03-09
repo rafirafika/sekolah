@@ -1,0 +1,22 @@
+@import "header.css";
+@import "content.css";
+@import "contentleft.css";
+@import "contentcenter.css";
+@import "contentright.css";
+@import "footer.css";
+
+body
+{
+    background-color: #59AFC0;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.wrap
+{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
