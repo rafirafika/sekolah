@@ -11,13 +11,13 @@
             <div class="tabbable tabs-left">
                 <ul class="nav nav-tabs">
                     <li class="active">
-                        <a href="#lA" data-toggle="tab">Post</a>
+                        <a href="#lA" data-toggle="tab"><i class="icon-envelope"></i>&nbsp;Post</a>
                     </li>
                     <li class="">
-                        <a href="#lB" data-toggle="tab">Setting</a>
+                        <a href="#lB" data-toggle="tab"><i class="icon-cog"></i>&nbsp;Setting</a>
                     </li>
                     <li class="">
-                        <a href="#lC" data-toggle="tab">Users</a>
+                        <a href="#lC" data-toggle="tab"><i class="icon-user"></i>&nbsp;Users</a>
                     </li>
                 </ul>
 
@@ -26,13 +26,13 @@
         <div class="span10">
             <div class="tab-content">
                 <div class="tab-pane active" id="lA">
-                    <p>post</p>
+                    <p>Post</p>
                 </div>
                 <div class="tab-pane" id="lB">
-                    <p>setting</p>
+                    <p>Setting</p>
                 </div>
                 <div class="tab-pane" id="lC">
-                    <p>users</p>
+                    <p>Users</p>
                 </div>
             </div>
         </div>
