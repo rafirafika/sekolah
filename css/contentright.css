@@ -1,6 +1,6 @@
 .right
 {
     border: 1px solid black;
-    width: 200px;
+    width: auto;
     display: inline-block;
 }

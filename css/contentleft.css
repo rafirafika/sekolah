@@ -1,6 +1,9 @@
 .left
 {
     border: 1px solid black;
-    width: 200px;
+    width: auto;
     display: inline-block;
+    float: left;
+    padding: 3px;
+    margin-right: 3px
 }

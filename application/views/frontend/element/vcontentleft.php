@@ -1,3 +1,4 @@
 <div class="left">
-    left
+    <?php $this->load->view('frontend/logreg/vlogin'); ?>
+    <div></div>
 </div>
