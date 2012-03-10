@@ -40,10 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="header.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="16" selection-start="3457" selection-end="3457" vertical-scroll-proportion="3.8727272">
+            <state line="163" column="35" selection-start="4003" selection-end="4003" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -58,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vheader.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="vheader.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vheader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="27" selection-start="4108" selection-end="4108" vertical-scroll-proportion="-5.6666665">
+            <state line="87" column="54" selection-start="4100" selection-end="4100" vertical-scroll-proportion="2.055133">
               <folding />
             </state>
           </provider>
@@ -70,7 +70,7 @@
       <file leaf-file-name="header.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/header.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="17" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
+            <state line="42" column="23" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,10 +103,10 @@
         <option value="$PROJECT_DIR$/js/jstyle.js" />
         <option value="$PROJECT_DIR$/application/views/frontend/element/vcontentleft.php" />
         <option value="$PROJECT_DIR$/css/contentleft.css" />
-        <option value="$PROJECT_DIR$/application/views/frontend/element/vheader.php" />
-        <option value="$PROJECT_DIR$/css/header.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/header.js" />
+        <option value="$PROJECT_DIR$/css/header.css" />
+        <option value="$PROJECT_DIR$/application/views/frontend/element/vheader.php" />
       </list>
     </option>
   </component>
@@ -533,37 +533,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vinfosekolah.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vcontentright.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="58" selection-start="78" selection-end="78" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="17" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="18" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vheader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="27" selection-start="4108" selection-end="4108" vertical-scroll-proportion="-5.6666665">
           <folding />
         </state>
       </provider>
@@ -598,9 +570,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vcontentright.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="58" selection-start="78" selection-end="78" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/menu/vinfosekolah.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="16" selection-start="3457" selection-end="3457" vertical-scroll-proportion="3.8727272">
+        <state line="163" column="35" selection-start="4003" selection-end="4003" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="23" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vheader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="54" selection-start="4100" selection-end="4100" vertical-scroll-proportion="2.055133">
           <folding />
         </state>
       </provider>

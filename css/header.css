@@ -40,7 +40,7 @@
 
 .panel_header ul#menu_list_hide
 {
-    margin: 0 0 0 20px;
+    margin: -10px 0 0 20px;
     padding: 0;
     position: absolute;
 }

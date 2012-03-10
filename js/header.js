@@ -144,4 +144,30 @@ $(function(){
         }
     );
 
+    var i;
+    var tbl = new Array();
+    tbl[0] = $('#menu_list_hide li table:eq(0)');
+    tbl[1] = $('#menu_list_hide li table:eq(1)');
+    tbl[2] = $('#menu_list_hide li table:eq(2)');
+    tbl[3] = $('#menu_list_hide li table:eq(3)');
+    tbl[4] = $('#menu_list_hide li table:eq(4)');
+
+
+    for(i=0;i<=tbl.length;i++)
+    {
+        function hov(e){
+            e.hover(
+                function(){
+                    $(this).show();
+                },
+                function(){
+                    $(this).hide();
+                }
+            );
+        }
+        hov(tbl[i]);
+    }
+
+
+
 });

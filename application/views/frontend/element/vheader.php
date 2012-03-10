@@ -24,9 +24,9 @@
 
                 </ul>
                 <ul id="menu_list_hide">
-                    <li>&nbsp;</li>
+
                     <li>
-                        <table style="margin-left: 39px;">
+                        <table style="margin-left: 50px;">
                             <tr>
                                 <td><a href="">Motto, Visi dan Misi</a></td>
                             </tr>
@@ -45,7 +45,7 @@
                         </table>
                     </li>
                     <li>
-                        <table style="margin-left: 127px;">
+                        <table style="margin-left: 135px;">
                             <tr>
                                 <td><a href="">Direktori Guru</a></td>
                             </tr>
@@ -62,7 +62,7 @@
                         </table>
                     </li>
                     <li>
-                        <table style="margin-left: 217px;">
+                        <table style="margin-left: 225px;">
                         <tr>
                             <td><a href="">Direktori Siswa</a></td>
                         </tr>
@@ -75,7 +75,7 @@
                         </table>
                     </li>
                     <li>
-                        <table style="margin-left: 303px; ">
+                        <table style="margin-left: 310px; ">
                         <tr>
                             <td><a href="">Direktori Alumni</a></td>
                         </tr>
@@ -85,7 +85,7 @@
                         </table>
                     </li>
                     <li>
-                        <table style="margin-left: 389px;">
+                        <table style="margin-left: 400px;">
                         <tr>
                             <td><a href="">Agenda</a></td>
                         </tr>
