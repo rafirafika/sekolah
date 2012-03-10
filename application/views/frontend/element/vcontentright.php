@@ -1,3 +1,3 @@
 <div class="right">
-    right
+    <?php $this->load->view('frontend/menu/vinfosekolah'); ?>
 </div>

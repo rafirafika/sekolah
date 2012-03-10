@@ -2,7 +2,11 @@
     <head>
         <title><?php echo $title; ?></title>
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/jquery.ui.all.css"/>
         <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.tools.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.ui.core.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.ui.datepicker.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.ui.widget.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>js/jstyle.js"></script>
     </head>
 
