@@ -6,7 +6,12 @@
     <body>
         <div class="wrap">
             <div class="panel">
-                <?php echo form_open(); ?>
+                <?php
+                $data = array(
+                    'method'=>'post'
+                );
+                echo form_open('backend/cpageadmin/periksa_user',$data);
+                ?>
                     <table>
                         <tr>
                             <td colspan="2">
@@ -37,7 +42,7 @@
                             <td>
                                 <?php
                                 $data = array(
-                                    'name'=>'password',
+
                                     'style'=>'height: 30px;margin-left: 10px'
                                 );
                                 echo form_password($data);
@@ -51,7 +56,7 @@
                             <td colspan="2" align="center">
                                 <?php
                                 $data = array(
-                                    'id'=>'login',
+
                                     'value'=>'submit',
                                     'class'=>'btn'
                                 );

@@ -2,6 +2,7 @@
 class Cpageadmin extends CI_Controller{
     function __construct(){
         parent::__construct();
+
     }
     function index(){
         $data['title']="Panel Admin";
@@ -9,5 +10,6 @@ class Cpageadmin extends CI_Controller{
         $this->load->view('backend/element/vcontent');
         $this->load->view('backend/element/vfooter');
     }
+
 }
 ?>
