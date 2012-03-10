@@ -9,14 +9,22 @@
                 <?php echo form_open(); ?>
                     <table>
                         <tr>
+                            <td colspan="2">
+
+                                <p><i class="icon-off"></i>&nbsp;PANEL LOGIN</p>
+                            </td>
+                        </tr>
+                        <tr>
                             <td>
                                 <?php echo form_label('Username','username'); ?>
                             </td>
+
                             <td>
                                 <?php
                                 $data = array(
                                     'type'=>'text',
-                                    'name'=>'username'
+                                    'name'=>'username',
+                                    'style'=>'height: 30px;margin-left: 10px'
                                 );
                                 echo form_input($data);
                                 ?>
@@ -29,7 +37,8 @@
                             <td>
                                 <?php
                                 $data = array(
-                                    'name'=>'password'
+                                    'name'=>'password',
+                                    'style'=>'height: 30px;margin-left: 10px'
                                 );
                                 echo form_password($data);
                                 ?>
@@ -43,7 +52,8 @@
                                 <?php
                                 $data = array(
                                     'id'=>'login',
-                                    'value'=>'kirim'
+                                    'value'=>'submit',
+                                    'class'=>'btn'
                                 );
                                 echo form_submit($data);
                                 ?>

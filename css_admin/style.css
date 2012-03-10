@@ -5,11 +5,15 @@
 @import "bootstrap.css";
 body
 {
-
+    background: -webkit-linear-gradient(top,grey,white);
+    background: -moz-linear-gradient(top,grey,white);
+    background: -ms-linear-gradient(top,grey,white);
+    background: -o-linear-gradient(top,grey,white);
 }
 .wrap
 {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    height: 550px
 }

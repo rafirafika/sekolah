@@ -22,14 +22,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="vcontent.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="vcontent.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/backend/element/vcontent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="56" selection-start="1726" selection-end="1726" vertical-scroll-proportion="-0.08181818">
+            <state line="48" column="56" selection-start="1726" selection-end="1726" vertical-scroll-proportion="-5.625">
               <folding>
                 <marker date="1331390277000" expanded="true" signature="2436:2614" placeholder="..." />
                 <marker date="1331390277000" expanded="true" signature="2484:2614" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cpanellogin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/backend/cpanellogin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vpanellogin.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/backend/vpanellogin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="65" selection-start="447" selection-end="447" vertical-scroll-proportion="0.35454544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css_admin/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="14" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="panellogin.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css_admin/panellogin.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="20" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,9 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/header.css" />
-        <option value="$PROJECT_DIR$/application/views/frontend/element/vcontentcenter.php" />
-        <option value="$PROJECT_DIR$/js/header.js" />
         <option value="$PROJECT_DIR$/application/views/frontend/subpage/vmotto.php" />
         <option value="$PROJECT_DIR$/application/controllers/page/csiswa.php" />
         <option value="$PROJECT_DIR$/application/controllers/page/cprofil.php" />
@@ -65,6 +98,9 @@
         <option value="$PROJECT_DIR$/application/controllers/cpage.php" />
         <option value="$PROJECT_DIR$/css_admin/bootstrap.css" />
         <option value="$PROJECT_DIR$/application/views/backend/element/vcontent.php" />
+        <option value="$PROJECT_DIR$/css_admin/style.css" />
+        <option value="$PROJECT_DIR$/css_admin/panellogin.css" />
+        <option value="$PROJECT_DIR$/application/views/backend/vpanellogin.php" />
       </list>
     </option>
   </component>
@@ -142,20 +178,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sekolah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sekolah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -197,32 +219,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sekolah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sekolah" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="element" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,6 +237,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sekolah" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,26 +429,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vcontent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/subpage/sub5/vberita.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/frontend/element/vheader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="97" selection-start="5718" selection-end="5718" vertical-scroll-proportion="2.9532163" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/subpage/csub.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="33" selection-start="2261" selection-end="2261" vertical-scroll-proportion="2.3727272" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/page/csiswa.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -490,11 +488,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/backend/element/vcontent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="56" selection-start="1726" selection-end="1726" vertical-scroll-proportion="-0.08181818">
+        <state line="48" column="56" selection-start="1726" selection-end="1726" vertical-scroll-proportion="-5.625">
           <folding>
             <marker date="1331390277000" expanded="true" signature="2436:2614" placeholder="..." />
             <marker date="1331390277000" expanded="true" signature="2484:2614" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css_admin/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="14" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/backend/cpanellogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css_admin/panellogin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/backend/vpanellogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="65" selection-start="447" selection-end="447" vertical-scroll-proportion="0.35454544">
+          <folding />
         </state>
       </provider>
     </entry>
