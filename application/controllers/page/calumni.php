@@ -4,7 +4,7 @@ class Calumni extends CI_Controller{
         parent::__construct();
     }
     function index(){
-        $data['title']="Alumni SMA N 1 LAMPUNG";
+        $data['title']="Alumni SMA NEGERI ABUNG TINGGI";
         $this->load->view('frontend/element/vheader',$data);
         $this->load->view('frontend/element/vcontent');
         $this->load->view('frontend/element/vfooter');

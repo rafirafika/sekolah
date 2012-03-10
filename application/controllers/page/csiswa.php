@@ -4,7 +4,7 @@ class Csiswa extends CI_Controller{
         parent::__construct();
     }
     function index(){
-        $data['title']="Siswa SMA N 1 LAMPUNG";
+        $data['title']="Siswa SMA NEGERI ABUNG TINGGI";
         $this->load->view('frontend/element/vheader',$data);
         $this->load->view('frontend/element/vcontent');
         $this->load->view('frontend/element/vfooter');

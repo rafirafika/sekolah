@@ -28,7 +28,7 @@
                     <li>
                         <table style="margin-left: 50px;">
                             <tr>
-                                <td><a href="">Motto, Visi dan Misi</a></td>
+                                <td><a href="<?php echo base_url(); ?>index.php/subpage/cmotto">Motto, Visi dan Misi</a></td>
                             </tr>
                             <tr>
                                 <td><a href="">Sejarah Singkat</a></td>
