@@ -28,35 +28,35 @@
                     <li>
                         <table style="margin-left: 50px;">
                             <tr>
-                                <td><a href="<?php echo base_url(); ?>index.php/subpage/cmotto">Motto, Visi dan Misi</a></td>
+                                <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=mot">Motto, Visi dan Misi</a></td>
                             </tr>
                             <tr>
-                                <td><a href="">Sejarah Singkat</a></td>
+                                <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=sej">Sejarah Singkat</a></td>
                             </tr>
                             <tr>
-                                <td><a href="">Kepala Sekolah</a></td>
+                                <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=kep">Kepala Sekolah</a></td>
                             </tr>
                             <tr>
-                                <td><a href="">Sarana & Prasarana</a></td>
+                                <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=sar">Sarana & Prasarana</a></td>
                             </tr>
                             <tr>
-                                <td><a href="">Prestasi</a></td>
+                                <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=pres">Prestasi</a></td>
                             </tr>
                         </table>
                     </li>
                     <li>
                         <table style="margin-left: 135px;">
                             <tr>
-                                <td><a href="">Direktori Guru</a></td>
+                                <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=dirG">Direktori Guru</a></td>
                             </tr>
                             <tr>
-                                <td><a href="">Silabus</a></td>
+                                <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=sil">Silabus</a></td>
                             </tr>
                             <tr>
-                                <td><a href="">Materi Ajar</a></td>
+                                <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=aja">Materi Ajar</a></td>
                             </tr>
                             <tr>
-                                <td><a href="">Kalender Akademik</a></td>
+                                <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=kal">Kalender Akademik</a></td>
                             </tr>
 
                         </table>
@@ -64,42 +64,42 @@
                     <li>
                         <table style="margin-left: 225px;">
                         <tr>
-                            <td><a href="">Direktori Siswa</a></td>
+                            <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=dirS">Direktori Siswa</a></td>
                         </tr>
                         <tr>
-                            <td><a href="">Prestasi Siswa</a></td>
+                            <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=prest">Prestasi Siswa</a></td>
                         </tr>
                         <tr>
-                            <td><a href="">Ektrakurikuler</a></td>
+                            <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=eks">Ektrakurikuler</a></td>
                         </tr>
                         </table>
                     </li>
                     <li>
                         <table style="margin-left: 310px; ">
                         <tr>
-                            <td><a href="">Direktori Alumni</a></td>
+                            <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=dirA">Direktori Alumni</a></td>
                         </tr>
                         <tr>
-                            <td><a href="">Info Alumni</a></td>
+                            <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=inf">Info Alumni</a></td>
                         </tr>
                         </table>
                     </li>
                     <li>
                         <table style="margin-left: 400px;">
                         <tr>
-                            <td><a href="">Agenda</a></td>
+                            <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=age">Agenda</a></td>
                         </tr>
                         <tr>
-                            <td><a href="">Artikel</a></td>
+                            <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=art">Artikel</a></td>
                         </tr>
                         <tr>
-                            <td><a href="">Berita</a></td>
+                            <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=ber">Berita</a></td>
                         </tr>
                         <tr>
-                            <td><a href="">Opini</a></td>
+                            <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=opi">Opini</a></td>
                         </tr>
                         <tr>
-                            <td><a href="">Buku Tamu</a></td>
+                            <td><a href="<?php echo base_url(); ?>index.php/subpage/csub?menu=tam">Buku Tamu</a></td>
                         </tr>
                         </table>
                     </li>
